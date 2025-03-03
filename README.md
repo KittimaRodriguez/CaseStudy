@@ -1,2 +1,5 @@
-# Data-analytics-portfolio
-A collection of my data analytics and business intelligence projects using SQL, R, and Excel.
+# 🗺 Kittima's Portfolio
+
+Welcome to my data portfolio! Here, I document a summary of my projects in the data field. 
+
+
