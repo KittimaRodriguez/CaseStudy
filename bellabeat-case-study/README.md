@@ -30,5 +30,7 @@ Bellabeat, a high-tech company focusing on women’s health, wants to gain insig
 🚀 **Next Steps:**  
 - Further segment users to identify patterns based on demographics or fitness goals.
 - Explore seasonal trends to understand how activity changes over time.
-- Develop targeted marketing campaigns using insights from activity and sleep data.
+- Develop targeted marketing campaigns using insights from activity and sleep data.  
+📄 **View the Full Report:**  
+[Bellabeat Case Study (HTML)](https://github.com/KittimaRodriguez/data-analytics-case-study/blob/main/bellabeat-case-study/bellabeat_case_study.html)
 
