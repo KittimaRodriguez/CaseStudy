@@ -7,7 +7,7 @@
 **📂 Type:** Wearable device data (steps, sleep, calories)  
 
 ## 📌 Table of Contents  
-- [Project Overview](#project-overview)  
+- [Project Overview](#Project-Overview)  
 - [Business Objectives](#business-objectives)  
 - [Methodology](#methodology)  
 - [Key Insights](#key-insights)  
