@@ -6,18 +6,26 @@
 **📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
 
 ## 📌 Project Overview  
-This case study explores **smart device usage trends** to provide **business insights** for Bellabeat, a wellness technology company.  
+Bellabeat, a high-tech company focusing on women’s health, wants to gain insights from **smart device usage trends** to **enhance its marketing strategy** and **increase product adoption**.  
 
-### **Business Task:**  
+### **Business Objectives:**  
 ✅ What are the trends in smart device usage?  
 ✅ How could these trends apply to Bellabeat customer?  
 ✅ How could these trends help inence Bellabeat marketing strategy?
 
-## 📂 Project Files  
-- `sql_queries.sql` → SQL queries for data exploration  
-- `data_cleaning.R` → R script for cleaning and transforming the data  
-- `visualizations.R` → R script for creating data visualizations  
-- `final_report.pdf` → Summary of findings and recommendations  
+### **📂 Dataset**  
+- **Source:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
+- **Type:** Wearable device data (steps, sleep, calories, heart rate)  
+
+### **📊 Insights & Recommendations**  
+- Identify **usage patterns** to refine Bellabeat’s customer segmentation.  
+- Develop **data-driven marketing campaigns** targeting high-engagement users.  
+- Leverage wearable tech trends to enhance **product development & branding**.  
+
+🚀 **Next Steps:**  
+- Perform **data cleaning & analysis** using **R (ggplot2, dplyr)**.  
+- Generate **visual insights** to support decision-making.  
+- Provide **final recommendations** based on the findings.  
 
 ## 📊 Key Insights  
 📌 [Add your main findings here after analysis]  
