@@ -1,4 +1,5 @@
-# 📊 Bellabeat Case Study – Data Analysis Project
+#Google Data Analytics: Capstone
+
 
 **📝 Skills Used:** SQL, R (ggplot2, dplyr), Data Visualization  
 **📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
