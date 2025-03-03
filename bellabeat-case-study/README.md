@@ -3,7 +3,8 @@
 ![Bellabeat](https://github.com/KittimaRodriguez/data-analytics-case-study/blob/main/bellabeat-case-study/1*SjEGKrjDp7skk4URhzW5Nw.png)
 
 **📝 Skills Used:** SQL, R (ggplot2, dplyr), Data Visualization  
-**📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
+**📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) 
+**Type:** Wearable device data (steps, sleep, calories, heart rate)  
 
 ## 📌 Project Overview  
 Bellabeat, a high-tech company focusing on women’s health, wants to gain insights from **smart device usage trends** to **enhance its marketing strategy** and **increase product adoption**.  
@@ -13,9 +14,7 @@ Bellabeat, a high-tech company focusing on women’s health, wants to gain insig
 ✅ How could these trends apply to Bellabeat customer?  
 ✅ How could these trends help inence Bellabeat marketing strategy?
 
-### **📂 Dataset**  
-- **Source:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
-- **Type:** Wearable device data (steps, sleep, calories, heart rate)  
+
 
 ### **📊 Insights & Recommendations**  
 - Identify **usage patterns** to refine Bellabeat’s customer segmentation.  
