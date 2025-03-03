@@ -50,7 +50,7 @@ Bellabeat, a high-tech company focusing on women’s health, wants to gain insig
 
 
 ## Full Report  
-📂 **View the full analysis:** [Bellabeat Case Study (HTML)](https://KittimaRodriguez.github.io/data-analytics-case-study/docs/bellabeat_case_study.html)
+📂 **View the full analysis:** [Bellabeat Case Study (HTML)]([https://KittimaRodriguez.github.io/data-analytics-case-study/docs/bellabeat_case_study.html](https://600f61d4433f4da2b88d38fa9852efc3.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FBellabeat.html)
 
 
 
