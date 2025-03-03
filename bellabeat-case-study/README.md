@@ -7,13 +7,13 @@
 **📂 Type:** Wearable device data (steps, sleep, calories)  
 
 ## 📌 Table of Contents  
-- [Project Overview](#project-overview)  
-- [Business Objectives](#business-objectives)  
-- [Methodology](#methodology)  
-- [Key Insights](#key-insights)  
-- [Recommendations](#recommendations)  
-- [Next Steps](#next-steps)  
-- [Full Report](#full-report)  
+- [Project Overview](#📍-project-overview)  
+- [Business Objectives](#🎯-business-objectives)  
+- [Methodology](#🔍-methodology)  
+- [Key Insights](#📊-key-insights)  
+- [Recommendations](#🚀-recommendations)  
+- [Next Steps](#📌-next-steps)  
+- [Full Report](#📄-full-report
 
 ## 📌 Project Overview  
 Bellabeat, a high-tech company focusing on women’s health, wants to gain insights from **smart device usage trends** to **enhance its marketing strategy** and **increase product adoption**.  
