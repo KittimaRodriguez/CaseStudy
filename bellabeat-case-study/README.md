@@ -1,4 +1,4 @@
-## Google Data Analytics: Capstone
+# Google Data Analytics: Capstone
 
 
 **📝 Skills Used:** SQL, R (ggplot2, dplyr), Data Visualization  
