@@ -4,7 +4,7 @@
 
 **📝 Skills Used:** SQL, R (ggplot2, dplyr), Data Visualization  
 **📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) 
-** - Type:** Wearable device data (steps, sleep, calories, heart rate)  
+**🔹 Type:** Wearable device data (steps, sleep, calories, heart rate)  
 
 ## 📌 Project Overview  
 Bellabeat, a high-tech company focusing on women’s health, wants to gain insights from **smart device usage trends** to **enhance its marketing strategy** and **increase product adoption**.  
