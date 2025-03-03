@@ -3,7 +3,7 @@
 ![Bellabeat](https://github.com/KittimaRodriguez/data-analytics-case-study/blob/main/bellabeat-case-study/1*SjEGKrjDp7skk4URhzW5Nw.png)
 
 **📝 Skills Used:** SQL, R (ggplot2, dplyr), Data Visualization  
-**📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) 
+**📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
 **📂 Type:** Wearable device data (steps, sleep, calories, heart rate)  
 
 ## 📌 Project Overview  
