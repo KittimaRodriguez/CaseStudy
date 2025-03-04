@@ -6,6 +6,9 @@
 **📂 Dataset:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)  
 **📂 Type:** Wearable device data (steps, sleep, calories)  
 
+## 📂 Project Files  
+**View the full analysis:** [Bellabeat Case Study (HTML)](https://kittimarodriguez.github.io/Capstone/Bellabeat.html) → R script for visualizing trends  
+
 ## 📌 Table of Contents  
 - [Project Overview](#project-overview)  
 - [Business Objectives](#business-objectives)  
@@ -13,7 +16,7 @@
 - [Key Insights](#key-insights)  
 - [Recommendations](#recommendations)  
 - [Next Steps](#next-steps)  
-- [Full Report](#full-report)  
+
 
 
 ## Project Overview  
@@ -49,8 +52,7 @@ Bellabeat, a high-tech company focusing on women’s health, wants to gain insig
 - Develop targeted marketing campaigns using insights from activity and sleep data.  
 
 
-## Full Report  
-📂 **View the full analysis:** [Bellabeat Case Study (HTML)](https://kittimarodriguez.github.io/Capstone/Bellabeat.html)
+
 
 
 
