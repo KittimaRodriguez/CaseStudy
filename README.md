@@ -7,7 +7,7 @@
 
 ## 📝 Projects
 
-### 1. [Bellabeat Case Study](https://github.com/KittimaRodriguez/CaseStudy/tree/main/bellabeat)
+### 1. [Bellabeat Case Study]()
 
 **Objective:**  
 Analyze smart device usage data to generate insights for Bellabeat's marketing strategy.
