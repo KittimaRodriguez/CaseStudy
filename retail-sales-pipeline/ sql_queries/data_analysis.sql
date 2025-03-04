@@ -53,6 +53,55 @@ ON o.product_id = c.id
 GROUP BY c.category
 ORDER BY total_revenue DESC;
 
+-- 5️⃣ Generate Summary Table
+-- Creates a consolidated summary of key insights for easy reference.
+CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.analysis_summary` AS
+WITH product_revenue AS (
+  SELECT 'Total Revenue' AS metric, CAST(SUM(sale_price) AS STRING) AS value
+  FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final`
+),
+order_count AS (
+  SELECT 'Total Orders' AS metric, CAST(COUNT(DISTINCT order_id) AS STRING) AS value
+  FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final`
+),
+top_customer AS (
+  SELECT 'Top Customer Spending' AS metric, CAST(MAX(total_spent) AS STRING) AS value
+  FROM (
+    SELECT user_id, SUM(sale_price) AS total_spent
+    FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final`
+    GROUP BY user_id
+  )
+),
+seasonal_trends AS (
+  SELECT 'Peak Sales Month' AS metric, FORMAT('%04d-%02d', year, month) AS value
+  FROM (
+    SELECT EXTRACT(YEAR FROM created_at) AS year, EXTRACT(MONTH FROM created_at) AS month, 
+           COUNT(order_id) AS total_orders, RANK() OVER (ORDER BY COUNT(order_id) DESC) AS rank
+    FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final`
+    GROUP BY year, month
+  ) WHERE rank = 1
+),
+top_category AS (
+  SELECT 'Top Selling Category' AS metric, category AS value
+  FROM (
+    SELECT c.category, SUM(o.sale_price) AS total_revenue,
+           RANK() OVER (ORDER BY SUM(o.sale_price) DESC) AS rank
+    FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final` AS o
+    JOIN `bigquery-public-data.thelook_ecommerce.products` AS c
+    ON o.product_id = c.id
+    GROUP BY c.category
+  ) WHERE rank = 1
+)
+SELECT * FROM product_revenue
+UNION ALL
+SELECT * FROM order_count
+UNION ALL
+SELECT * FROM top_customer
+UNION ALL
+SELECT * FROM seasonal_trends
+UNION ALL
+SELECT * FROM top_category;
+
 /*
 Summary:
 ✔ Calculated total revenue and orders per product.
