@@ -1,9 +1,29 @@
-# Collection of my casestudy
+# 📚 Collection of My Case Studies
 
-A collection of my data analytics and business intelligence projects using SQL, R, and Excel.
- Building a for work with real-world projects
+> **Welcome!**  
+> This repository showcases my data analytics and business intelligence projects, utilizing tools like **SQL**, **R**, and **Excel**. Each project is designed to tackle real-world challenges and provide actionable insights.
 
-1 project [bellabeat](https://github.com/KittimaRodriguez/CaseStudy/tree/main/bellabeat-case-study)
+---
+
+## 📝 Projects
+
+### 1. [Bellabeat Case Study](https://github.com/KittimaRodriguez/CaseStudy/tree/main/bellabeat)
+
+**Objective:**  
+Analyze smart device usage data to generate insights for Bellabeat's marketing strategy.
+
+**Tools Used:**  
+- R (ggplot2, dplyr)
+- Data Visualization
+
+**Highlights:**  
+- Explored user activity data to identify usage patterns.
+- Provided recommendations to enhance user engagement based on data findings.
+
+---
+
+*Stay tuned for more projects!*
+
 
 
 
