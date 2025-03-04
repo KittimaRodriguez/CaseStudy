@@ -9,6 +9,9 @@ This project processes retail transaction data to uncover **sales trends, custom
 - **ETL Pipeline (Google Cloud, dbt)** for automated data processing  
 - **Tableau** for data visualization  
 
+## 📌 **Dataset**  
+Using [Google BigQuery's `thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table), this dataset provides retail transaction records, including order details, customer demographics, and sales revenue.  
+
 ## 📂 Project Files  
 📜 **SQL Scripts:**  
 - [`data_extraction.sql`](sql_queries/data_extraction.sql) – Extract raw sales data  
