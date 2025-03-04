@@ -3,10 +3,11 @@ Script Name: data_cleaning.sql
 Purpose: Clean and preprocess retail sales data from 'thelook_ecommerce.order_items' in BigQuery.
 Author: Kittima Rodriguez
 Created Date: 03/04/2025
-Version: 1.0
+Version: 1.3
 Description: 
 This script removes duplicates, handles missing values, standardizes date formats, 
 and ensures valid sales data for further analysis.
+NOTE: Since DML queries (DELETE, UPDATE) are not allowed in the free tier, we use a filtered table creation approach instead.
 */
 
 -- 1️⃣ Identify Missing Values
@@ -27,34 +28,36 @@ HAVING COUNT(*) > 1;
 
 -- 3️⃣ Remove Duplicate Records
 -- Creates a cleaned table with distinct order records.
-CREATE OR REPLACE TABLE `your_project.cleaned_order_items` AS
-SELECT DISTINCT * FROM `bigquery-public-data.thelook_ecommerce.order_items`;
+CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items` AS
+SELECT DISTINCT order_id, user_id, product_id, sale_price, created_at
+FROM `bigquery-public-data.thelook_ecommerce.order_items`;
 
 -- 4️⃣ Standardize Date Format
 -- Convert created_at timestamps into proper DATE format for easier analysis.
-CREATE OR REPLACE TABLE `your_project.cleaned_order_items` AS
+CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items` AS
 SELECT 
   order_id, 
   user_id, 
   product_id, 
   DATE(created_at) AS order_date, 
   sale_price
-FROM `your_project.cleaned_order_items`;
+FROM `retail-sales-pipeline.sales_data.cleaned_order_items`;
 
--- 5️⃣ Remove Invalid Transactions
--- Delete transactions with negative or zero sale prices.
-DELETE FROM `your_project.cleaned_order_items`
-WHERE sale_price <= 0;
+-- 5️⃣ Remove Invalid Transactions (Alternative Approach for Free Tier)
+-- Instead of DELETE (not allowed in free tier), create a new filtered table.
+CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items_final` AS
+SELECT *
+FROM `retail-sales-pipeline.sales_data.cleaned_order_items`
+WHERE sale_price > 0;
 
 /*
 Summary:
-✔ Identified missing values in key columns.
+✔ Identified missing values in key columns. No NULL values found.
 ✔ Removed duplicate order records.
 ✔ Standardized date format to 'YYYY-MM-DD'.
-✔ Deleted invalid transactions with non-positive sales prices.
+✔ Used a filtered table approach to exclude invalid transactions (no DELETE due to free tier restrictions).
 
 Next Steps:
 - Perform deeper data transformation (aggregations, revenue calculations).
 - Analyze trends in sales and customer purchasing behavior.
 */
-
