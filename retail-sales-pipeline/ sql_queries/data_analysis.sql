@@ -3,7 +3,7 @@ Script Name: data_analysis.sql
 Purpose: Perform data transformation and analysis on cleaned retail sales data in BigQuery.
 Author: Kittima Rodriguez
 Created Date: 03/04/2025
-Version: 1.0
+Version: 1.1
 Description: 
 This script aggregates and transforms the cleaned retail sales data to extract meaningful insights.
 */
@@ -32,24 +32,25 @@ ORDER BY total_spent DESC;
 -- 3️⃣ Identify Seasonal Sales Trends
 -- Aggregates sales by month to find seasonal trends.
 SELECT 
-  EXTRACT(YEAR FROM order_date) AS year, 
-  EXTRACT(MONTH FROM order_date) AS month, 
+  EXTRACT(YEAR FROM created_at) AS year, 
+  EXTRACT(MONTH FROM created_at) AS month, 
   COUNT(order_id) AS total_orders, 
   SUM(sale_price) AS total_revenue
 FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final`
 GROUP BY year, month
 ORDER BY year DESC, month DESC;
 
+
 -- 4️⃣ Analyze Sales by Product Category (Requires Category Mapping Table)
 -- If a product category mapping table exists, join it to analyze revenue per category.
 SELECT 
-  c.category_name, 
+  c.category, 
   COUNT(o.order_id) AS total_orders, 
   SUM(o.sale_price) AS total_revenue
 FROM `retail-sales-pipeline.sales_data.cleaned_order_items_final` AS o
-JOIN `retail-sales-pipeline.sales_data.product_categories` AS c
-ON o.product_id = c.product_id
-GROUP BY c.category_name
+JOIN `bigquery-public-data.thelook_ecommerce.products` AS c
+ON o.product_id = c.id
+GROUP BY c.category
 ORDER BY total_revenue DESC;
 
 /*
