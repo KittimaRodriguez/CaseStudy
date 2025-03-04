@@ -1,10 +1,10 @@
 # Retail Sales Data Pipeline (On Going)  
 This project involves building an **ETL pipeline** for processing and analyzing retail sales data using **SQL, Google BigQuery, and Tableau**.  
 
-## 🛠️ **Skills Used**  
-- SQL (BigQuery)  
-- Cloud-Based ETL (Google Cloud, dbt, or Python)  
-- Data Visualization (Tableau)  
+🛠️ **Skills Used:** SQL(BigQuery), Cloud-Based ETL (Google Cloud), Data Visualization (Tableau)  
+📌 **Dataset:** [`bigquery-public-data.thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table)
+**Description:** This dataset contains retail transaction records, including order details, customer demographics, and sales revenue.  
+ **Access:** Available on Google Cloud's **BigQuery Public Datasets**.
 
 ## 📌 **Table of Contents**  
 - [Project Overview](#project-overview)  
