@@ -1,16 +1,26 @@
-# 🏪 Retail Sales Data Pipeline  
-🚀 **An end-to-end ETL pipeline analyzing retail sales data using SQL, Google BigQuery, and Tableau.**  
+# 📊 Retail Sales Data Pipeline (Ongoing)
 
-## 📌 Project Overview  
-This project processes retail transaction data to uncover **sales trends, customer behaviors, and product performance.**  
+🚀 **An end-to-end ETL pipeline analyzing retail sales data using SQL, Google BigQuery, and Tableau.**
 
-## 🛠️ Skills Used  
-- **SQL (BigQuery)** for data extraction & transformation  
-- **ETL Pipeline (Google Cloud, dbt)** for automated data processing  
-- **Tableau** for data visualization  
+---
 
-## 📌 **Dataset**  
-Using [`bigquery-public-data.thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table), this dataset provides retail transaction records, including order details, customer demographics, and sales revenue.  
+## 📌 Project Overview
+This project focuses on extracting, transforming, and analyzing retail sales data to uncover insights into customer behavior, product performance, and revenue trends. The pipeline processes raw data from **Google BigQuery’s `thelook_ecommerce` dataset**, cleans and structures it for analysis, and visualizes findings using **Tableau**.
+
+---
+
+## 🛠️ Tools & Technologies
+- **SQL (BigQuery)** – Data extraction, transformation, and aggregation
+- **ETL Pipeline (Google Cloud, dbt)** – Automated data processing
+- **Tableau** – Interactive visualizations for insights
+
+---
+
+## 📂 Dataset
+The dataset is sourced from **Google BigQuery's public datasets**:
+- **Order Items Table:** `bigquery-public-data.thelook_ecommerce.order_items`
+- **Products Table:** `bigquery-public-data.thelook_ecommerce.products`
+These tables include details on transactions, product categories, customer demographics, and revenue. 
 
 ## 📂 Project Files
 ### **🔹 SQL Scripts**
