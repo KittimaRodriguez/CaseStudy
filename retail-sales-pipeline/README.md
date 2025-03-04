@@ -9,7 +9,7 @@ This project analyzes retail sales data to uncover trends in customer purchases,
 
 ## 📂 Project Files  
 - `sql_queries.sql` → SQL queries for data cleaning & analysis  
-- `dashboard.xlsx` → Final dashboard visualization (if using Excel/Power BI)  
+- `dashboard` → Final dashboard visualization (Tableau)  
 
 ## 🔍 Key Insights Explored  
 ✅ What are the top-selling products?  
