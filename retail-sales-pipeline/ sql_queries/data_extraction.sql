@@ -10,8 +10,8 @@ It counts total orders, extracts sample transactions, and identifies top-selling
 By grouping sales by product and calculating total revenue, we determine which products perform best.
 */
 
--- 1️⃣ Calculate the total number of orders to assess overall sales volume.
--- This helps understand the total number of transactions processed in the dataset.
+-- 1️⃣ Count total orders to measure overall sales volume.
+-- This tells us how many individual transactions occurred in the dataset.
 SELECT COUNT(*) AS total_orders
 FROM `bigquery-public-data.thelook_ecommerce.order_items`;
 
@@ -37,10 +37,23 @@ LIMIT 10;
 
 /*
 Summary:
-- Total Orders: **181518**
+- Total Orders: [181518]
 - Sample Transactions: Retrieved 10 sample records.
 
-- Top 10 Best-Selling Products: Listed with total orders and revenue
+/*
+Top 10 Best-Selling Products:
+--------------------------------------
+1️⃣ JORDAN DURASHEEN SHORT MENS  
+2️⃣ Catherine Malandrino Women's Skinny Stretch Leather Pant  
+3️⃣ Nobis Tula Parka  
+4️⃣ The North Face Nuptse 2 Jacket - Noah Green/TNF Black  
+5️⃣ The North Face Freedom Mens Ski Pants 2013  
+6️⃣ Canada Goose Men's The Chateau Jacket  
+7️⃣ Quiksilver Men's Rockefeller Walkshort  
+8️⃣ NIKE WOMEN'S PRO COMPRESSION SPORTS BRA  
+9️⃣ The North Face Apex Bionic Soft Shell Jacket - Men's  
+🔟 Woolrich Arctic Parka DF  
+*/
 
 Next Steps:
 - Perform deeper analysis on customer demographics to understand buying behavior.
