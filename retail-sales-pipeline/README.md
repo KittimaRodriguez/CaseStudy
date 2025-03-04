@@ -28,5 +28,4 @@ This project processes retail transaction data to uncover **sales trends, custom
 - Expand the ETL pipeline for real-time updates  
 - Develop machine learning models for sales forecasting  
 
-📂 **View the full analysis:** [Retail Sales Data Pipeline (HTML)](https://kittimarodriguez.github.io/Capstone/RetailSales.html)  
 
