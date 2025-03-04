@@ -16,15 +16,10 @@ Using [`bigquery-public-data.thelook_ecommerce.orders`](https://console.cloud.go
 ### **🔹 SQL Scripts**
 | File Name | Description |
 |-----------|-------------|
-| [`data_extraction.sql`](./sql_queries/data_extraction.sql) | Extracts raw sales data from BigQuery |
-| [`data_cleaning.sql`](./sql_queries/data_cleaning.sql) | Cleans and standardizes data (removes duplicates, handles nulls, formats dates) |
-| [`data_analysis.sql`](./sql_queries/data_analysis.sql) | Performs customer segmentation, revenue calculations, and sales trends analysis |
+| [`data_extraction.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_extraction.sql)| Extracts raw sales data from BigQuery |
+| [`data_cleaning.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_cleaning.sql) | Cleans and standardizes data (removes duplicates, handles nulls, formats dates) |
+|[`data_analysis.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_analysis.sql)  | Performs customer segmentation, revenue calculations, and sales trends analysis |
 
-## 📂 Project Files  
-📜 **SQL Scripts:**  
-- [`data_extraction.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_extraction.sql) – Extract raw sales data  
-- [`data_cleaning.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_cleaning.sql) – Clean & transform data  
-- [`data_analysis.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_analysis.sql) – Analyze customer trends  
 
 📊 **Tableau Dashboard:**  (On going)
 - [`Retail Sales Dashboard`](dashboard/retail_dashboard.twbx) – Interactive visualization  
