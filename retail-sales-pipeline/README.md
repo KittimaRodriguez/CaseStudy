@@ -48,9 +48,6 @@ These tables include details on transactions, product categories, customer demog
 
 ---
 
-## 📄 Full Report
-📂 **View the complete analysis:** [Retail Sales Data Pipeline Report (HTML)](https://kittimarodriguez.github.io/CaseStudy/retail-sales-pipeline.html)
-
 📌 **Author:** *Kittima Rodriguez*  
 📅 **Last Updated:** *March 2025*
 
