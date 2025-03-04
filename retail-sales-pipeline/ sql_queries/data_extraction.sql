@@ -38,8 +38,7 @@ LIMIT 10;
 /*
 Summary:
 - Total Orders: [181518]
-/*
-Sample Transactions: Retrieved 10 sample records
+- Sample Transactions: Retrieved 10 sample records
 
 | id     | order_id | user_id | product_id | status      | created_at               | shipped_at             | delivered_at           | returned_at           | sale_price |
 |--------|---------|---------|------------|------------|--------------------------|------------------------|------------------------|------------------------|------------|
@@ -54,10 +53,7 @@ Sample Transactions: Retrieved 10 sample records
 | 9802   | 6712    | 5394    | 28700      | Processing | 2024-10-27 07:30:47 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
 | 150377 | 103813  | 82733   | 28700      | Processing | 2024-05-27 11:23:21 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
 
-*/
-
-/*
-Top 10 Best-Selling Products:
+- Top 10 Best-Selling Products:
 --------------------------------------
 1️⃣ JORDAN DURASHEEN SHORT MENS  
 2️⃣ Catherine Malandrino Women's Skinny Stretch Leather Pant  
