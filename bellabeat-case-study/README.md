@@ -17,8 +17,6 @@
 - [Recommendations](#recommendations)  
 - [Next Steps](#next-steps)  
 
-
-
 ## Project Overview  
 Bellabeat, a high-tech company focusing on women’s health, wants to gain insights from **smart device usage trends** to **enhance its marketing strategy** and **increase product adoption**.  
 
