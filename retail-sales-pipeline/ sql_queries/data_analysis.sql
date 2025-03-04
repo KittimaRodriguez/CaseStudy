@@ -61,12 +61,12 @@ Summary:
 ✔ Categorized sales by product category.
 
 │ Row   │ Metric                │ Value                │
-  --
+|-------|-----------------------|----------------------|
 │ 1     │ Top Selling Category  │ Outerwear & Coats    │
-│ 2     │ Top Customer Spending │ 1,680 USD           │
-│ 3     │ Total Orders          │ 125,442             │
-│ 4     │ Total Revenue         │ 10,780,858.85 USD   │
-│ 5     │ Peak Sales Month      │ February 2025       │
+│ 2     │ Top Customer Spending │ 1,680 USD            │
+│ 3     │ Total Orders          │ 125,442              │
+│ 4     │ Total Revenue         │ 10,780,858.85 USD    │
+│ 5     │ Peak Sales Month      │ February 2025        │
 
 
 Next Steps:
