@@ -52,9 +52,9 @@ WHERE sale_price > 0;
 
 /*
 Summary:
-✔ Identified missing values in key columns. No NULL values found.
-✔ Removed duplicate order records.
-✔ Standardized date format to 'YYYY-MM-DD'.
+✔ Identified missing values in key columns: No NULL values found.
+✔ Removed duplicate order records: Found duplicate in `bigquery-public-data.thelook_ecommerce.order_items`
+✔ Standardized date format to 'YYYY-MM-DD': Converted TIMESTAMP → DATE.
 ✔ Used a filtered table approach to exclude invalid transactions (no DELETE due to free tier restrictions).
 
 Next Steps:
