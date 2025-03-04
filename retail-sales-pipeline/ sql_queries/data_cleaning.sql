@@ -2,7 +2,7 @@
 Script Name: data_cleaning.sql
 Purpose: Clean and preprocess retail sales data from 'thelook_ecommerce.order_items' in BigQuery.
 Author: Kittima Rodriguez
-Created Date: YYYY-MM-DD
+Created Date: 03/04/2025
 Version: 1.0
 Description: 
 This script removes duplicates, handles missing values, standardizes date formats, 
