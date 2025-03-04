@@ -2,10 +2,8 @@
 This project involves building an **ETL pipeline** for processing and analyzing retail sales data using **SQL, Google BigQuery, and Tableau**.  
 
 🛠️ **Skills Used:** SQL(BigQuery), Cloud-Based ETL (Google Cloud), Data Visualization (Tableau)  
-📌 **Dataset:** [`bigquery-public-data.thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table)
-**Description:** This dataset contains retail transaction records, including order details, customer demographics, and sales revenue.  
- **Access:** Available on Google Cloud's **BigQuery Public Datasets**.
-Using [Google BigQuery's `thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table), this dataset provides retail transaction records, including order details, customer demographics, and sales revenue.  
+📌 **Dataset:** [`bigquery-public-data.thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table) This dataset contains retail transaction records, including order details, customer demographics, and sales revenue. Google Cloud's **BigQuery Public Datasets**.
+
 
 ## 📌 **Table of Contents**  
 - [Project Overview](#project-overview)  
