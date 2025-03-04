@@ -18,7 +18,7 @@ Using [bigquery-public-data.thelook_ecommerce.orders](https://console.cloud.goog
 - [`data_cleaning.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_cleaning.sql) – Clean & transform data  
 - [`data_analysis.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_analysis.sql) – Analyze customer trends  
 
-📊 **Tableau Dashboard:**  
+📊 **Tableau Dashboard:**  (On going)
 - [`Retail Sales Dashboard`](dashboard/retail_dashboard.twbx) – Interactive visualization  
 
 ## 🔍 Key Insights Explored  
