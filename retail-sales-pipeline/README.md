@@ -14,9 +14,9 @@ Using [bigquery-public-data.thelook_ecommerce.orders](https://console.cloud.goog
 
 ## 📂 Project Files  
 📜 **SQL Scripts:**  
-- [`data_extraction.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_analysis.sql) – Extract raw sales data  
+- [`data_extraction.sql`]() – Extract raw sales data  
 - [`data_cleaning.sql`](sql_queries/data_cleaning.sql) – Clean & transform data  
-- [`data_analysis.sql`](sql_queries/data_analysis.sql) – Analyze customer trends  
+- [`data_analysis.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_analysis.sql) – Analyze customer trends  
 
 📊 **Tableau Dashboard:**  
 - [`Retail Sales Dashboard`](dashboard/retail_dashboard.twbx) – Interactive visualization  
