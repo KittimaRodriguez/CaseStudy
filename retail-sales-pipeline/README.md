@@ -5,6 +5,7 @@ This project involves building an **ETL pipeline** for processing and analyzing 
 📌 **Dataset:** [`bigquery-public-data.thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table)
 **Description:** This dataset contains retail transaction records, including order details, customer demographics, and sales revenue.  
  **Access:** Available on Google Cloud's **BigQuery Public Datasets**.
+Using [Google BigQuery's `thelook_ecommerce.orders`](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&t=orders&page=table), this dataset provides retail transaction records, including order details, customer demographics, and sales revenue.  
 
 ## 📌 **Table of Contents**  
 - [Project Overview](#project-overview)  
