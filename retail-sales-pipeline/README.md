@@ -42,8 +42,8 @@ These tables include details on transactions, product categories, customer demog
 ---
 
 ## 🚀 Next Steps
-✔ **Optimize SQL queries** for better performance
-✔ **Expand the ETL pipeline** to enable real-time data updates
+✔ **Optimize SQL queries** for better performance  
+✔ **Expand the ETL pipeline** to enable real-time data updates  
 ✔ **Develop interactive Tableau dashboards** for enhanced business intelligence
 
 ---
