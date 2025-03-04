@@ -30,18 +30,29 @@ These tables include details on transactions, product categories, customer demog
 | [`data_cleaning.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_cleaning.sql) | Cleans and standardizes data (removes duplicates, handles nulls, formats dates) |
 |[`data_analysis.sql`](https://github.com/KittimaRodriguez/CaseStudy/blob/main/retail-sales-pipeline/%20sql_queries/data_analysis.sql)  | Performs customer segmentation, revenue calculations, and sales trends analysis |
 
+### **📊 Tableau Dashboard (Ongoing)**
+- **Retail Sales Dashboard** (Coming soon)
 
-📊 **Tableau Dashboard:**  (On going)
-- [`Retail Sales Dashboard`](dashboard/retail_dashboard.twbx) – Interactive visualization  
+---
 
 ## 🔍 Key Insights Explored  
 ✅ What are the **top-selling products**?  
 ✅ Which **customer segments** generate the most revenue?  
 ✅ How do **sales vary across different regions & time periods**?  
+---
 
-## 🚀 Next Steps  
-- Optimize SQL queries for performance  
-- Expand the ETL pipeline for real-time updates  
-- Develop machine learning models for sales forecasting  
+## 🚀 Next Steps
+✔ **Optimize SQL queries** for better performance
+✔ **Expand the ETL pipeline** to enable real-time data updates
+✔ **Develop interactive Tableau dashboards** for enhanced business intelligence
+
+---
+
+## 📄 Full Report
+📂 **View the complete analysis:** [Retail Sales Data Pipeline Report (HTML)](https://kittimarodriguez.github.io/CaseStudy/retail-sales-pipeline.html)
+
+📌 **Author:** *Kittima Rodriguez*  
+📅 **Last Updated:** *March 2025*
+
 
 
