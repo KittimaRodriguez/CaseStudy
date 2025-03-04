@@ -38,7 +38,23 @@ LIMIT 10;
 /*
 Summary:
 - Total Orders: [181518]
-- Sample Transactions: Retrieved 10 sample records.
+/*
+Sample Transactions: Retrieved 10 sample records
+
+| id     | order_id | user_id | product_id | status      | created_at               | shipped_at             | delivered_at           | returned_at           | sale_price |
+|--------|---------|---------|------------|------------|--------------------------|------------------------|------------------------|------------------------|------------|
+| 38393  | 26431   | 21138   | 14235      | Cancelled  | 2020-11-12 11:02:46 UTC  | NULL                   | NULL                   | NULL                   | 0.02       |
+| 110935 | 76559   | 60981   | 14235      | Processing | 2025-02-28 14:21:22 UTC  | NULL                   | NULL                   | NULL                   | 0.02       |
+| 55291  | 38088   | 30364   | 14235      | Returned   | 2024-04-25 12:39:07 UTC  | 2024-04-27 15:24:00 UTC| 2024-04-27 23:47:00 UTC| 2024-04-29 09:47:00 UTC| 0.02       |
+| 92591  | 63837   | 50748   | 14159      | Complete   | 2021-10-25 04:02:56 UTC  | 2021-10-23 02:00:00 UTC| 2021-10-24 11:22:00 UTC| NULL                   | 0.49       |
+| 172125 | 118944  | 94849   | 14159      | Processing | 2023-05-08 04:16:27 UTC  | NULL                   | NULL                   | NULL                   | 0.49       |
+| 60138  | 41394   | 32969   | 14202      | Cancelled  | 2024-07-07 00:55:23 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
+| 171741 | 118678  | 94627   | 14202      | Cancelled  | 2024-12-09 07:48:48 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
+| 109734 | 75726   | 60276   | 28700      | Complete   | 2024-02-11 05:44:53 UTC  | 2024-02-11 22:31:00 UTC| 2024-02-12 18:46:00 UTC| NULL                   | 1.50       |
+| 9802   | 6712    | 5394    | 28700      | Processing | 2024-10-27 07:30:47 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
+| 150377 | 103813  | 82733   | 28700      | Processing | 2024-05-27 11:23:21 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
+
+*/
 
 /*
 Top 10 Best-Selling Products:
