@@ -1,32 +1,46 @@
-# 📚 Collection of My Case Studies
+# 📚 My Data Analytics & Business Intelligence Case Studies
 
 > **Welcome!**  
-> This repository showcases my data analytics and business intelligence projects, utilizing tools like **SQL**, **R**, and **Excel**. Each project is designed to tackle real-world challenges and provide actionable insights.
+> This repository features my **data analytics and business intelligence projects**, leveraging **SQL**, **R**, **BigQuery**, and **Tableau** to solve real-world business problems.
 
 ---
 
 ## 📝 Projects
 
-### 1. [Bellabeat Case Study](https://github.com/KittimaRodriguez/CaseStudy/tree/main/bellabeat-case-study)
+### 1️⃣ [Bellabeat Case Study](https://github.com/KittimaRodriguez/CaseStudy/tree/main/bellabeat-case-study)
 
-**Objective:**  
-Analyze smart device usage data to generate insights for Bellabeat's marketing strategy.
+🔹 **Objective:**  
+Analyze smart device usage data to uncover trends and provide data-driven recommendations for Bellabeat’s marketing strategy.
 
-**Tools Used:**  
-- R (ggplot2, dplyr)
-- Data Visualization
+🔹 **Tools Used:**  
+- **R** (ggplot2, dplyr, lubridate)  
+- **Data Visualization** (ggplot2)  
 
-**Highlights:**  
-- Explored user activity data to identify usage patterns.
-- Provided recommendations to enhance user engagement based on data findings.
+🔹 **Key Insights:**  
+✔ Identified trends in daily activity and sleep behavior  
+✔ Analyzed sedentary vs. active user segments  
+✔ Recommended targeted engagement strategies based on data patterns  
 
 ---
-### 2. [Retail Sales Data Pipeline](https://github.com/KittimaRodriguez/CaseStudy/tree/main/retail-sales-pipeline) (Ongoing)  
 
-- Currently working on designing an **ETL pipeline** to process and analyze large datasets.  
-- Utilizing **SQL, and cloud-based solutions** for data transformation and storage.  
-- Aim to integrate **automated reporting dashboards** for real-time insights.  
+### 2️⃣ [Retail Sales Data Pipeline](https://github.com/KittimaRodriguez/CaseStudy/tree/main/retail-sales-pipeline) *(Ongoing)*  
+
+🔹 **Objective:**  
+Develop an **end-to-end ETL pipeline** to analyze retail sales data, providing insights into product performance and customer purchasing behavior.
+
+🔹 **Tools Used:**  
+- **SQL (BigQuery)** – Data extraction & transformation  
+- **ETL Pipeline** – Automated data processing  
+- **Tableau** – Dashboard visualization (Upcoming)  
+
+🔹 **Current Progress:**  
+✔ Designed a **data pipeline** to clean, transform, and store structured sales data  
+✔ Performed **revenue and order analysis** using SQL  
+✔ Identified **top-selling products** and **customer segments**  
+🚀 Next: Develop **interactive Tableau dashboards** for sales insights  
+
 ---
+
 *Stay tuned for more projects!*
 
 
