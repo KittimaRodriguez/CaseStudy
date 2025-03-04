@@ -21,7 +21,12 @@ Analyze smart device usage data to generate insights for Bellabeat's marketing s
 - Provided recommendations to enhance user engagement based on data findings.
 
 ---
+### 2. Data Pipeline (Ongoing)  
 
+- Currently working on designing an **ETL pipeline** to process and analyze large datasets.  
+- Utilizing **SQL, Python, and cloud-based solutions** for data transformation and storage.  
+- Aim to integrate **automated reporting dashboards** for real-time insights.  
+---
 *Stay tuned for more projects!*
 
 
