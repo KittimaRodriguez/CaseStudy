@@ -2,7 +2,7 @@
 Script Name: data_extraction.sql
 Purpose: Extract and analyze data from the 'thelook_ecommerce.orders' table in BigQuery.
 Author: Kittima Rodriguez
-Created Date: YYYY-MM-DD
+Created Date: 03/04/2025
 Version: 1.0
 Description: 
 This script retrieves and analyzes retail sales data using SQL queries. 
