@@ -36,9 +36,9 @@ These tables include details on transactions, product categories, customer demog
 ---
 
 ## 🔍 Key Insights Explored  
-✅ What are the **top-selling products**?  
-✅ Which **customer segments** generate the most revenue?  
-✅ How do **sales vary across different regions & time periods**?  
+- What are the **top-selling products**?
+- Which **customer segments** generate the most revenue?  
+- How do **sales vary across different regions & time periods**?  
 ---
 
 ## 🚀 Next Steps
