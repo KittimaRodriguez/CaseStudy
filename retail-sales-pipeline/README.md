@@ -1,8 +1,8 @@
-# Retail Sales Data Pipeline  
-This project involves cleaning and analyzing retail sales data using SQL and Excel.
+# Retail Sales Data Pipeline (On going) 
+This project involves cleaning and analyzing retail sales data using SQL and Tableau.
 
-Skills Used: SQL, Excel/Power BI  
-Dataset: Superstore Sales Data  
+Skills Used: SQL, Tableau
+Dataset:
 
 ## 📌 Project Overview  
 This project analyzes retail sales data to uncover trends in customer purchases, product performance, and revenue insights.  
