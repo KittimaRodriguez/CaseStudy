@@ -53,7 +53,7 @@ Summary:
 | 9802   | 6712    | 5394    | 28700      | Processing | 2024-10-27 07:30:47 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
 | 150377 | 103813  | 82733   | 28700      | Processing | 2024-05-27 11:23:21 UTC  | NULL                   | NULL                   | NULL                   | 1.50       |
 
-- Top 10 Best-Selling Products:
+- Top 10 Best-Selling Products before data cleaning:
 --------------------------------------
 1️⃣ JORDAN DURASHEEN SHORT MENS  
 2️⃣ Catherine Malandrino Women's Skinny Stretch Leather Pant  
