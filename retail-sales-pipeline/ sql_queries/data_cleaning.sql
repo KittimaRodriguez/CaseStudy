@@ -46,7 +46,6 @@ WHERE sale_price <= 0;
 -- A JOIN with the "products" table to include product names.
 -- A standardized date format (DATE instead of TIMESTAMP).
 -- A filter to exclude invalid sales (sale_price ≤ 0) and cancelled orders.
-*/
 CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items` AS
 SELECT DISTINCT 
     o.order_id, 
