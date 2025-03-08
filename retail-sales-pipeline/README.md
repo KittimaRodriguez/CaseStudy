@@ -36,7 +36,7 @@ These tables include details on transactions, product categories, customer demog
 ---
 
 ## 🔍 Key Insights Explored  
-1️⃣ Which products and categories generate the most sales?
+- Which products and categories generate the most sales?
 2️⃣ How do sales trends change over time (monthly & daily patterns)?
 3️⃣ Who are the top-spending customers?
 4️⃣ When are the peak sales periods (busiest days & highest revenue months)?
