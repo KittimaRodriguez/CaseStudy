@@ -36,9 +36,11 @@ These tables include details on transactions, product categories, customer demog
 ---
 
 ## 🔍 Key Insights Explored  
-- What are the **top-selling products**?
-- Which **customer segments** generate the most revenue?  
-- How do **sales vary across different regions & time periods**?  
+- Which products generate the highest sales?
+- How are sales distributed across different product categories? 
+- How do sales trends vary over time?
+- Which days of the week have the highest sales activity?
+- What is the average revenue per order?
 ---
 
 ## 🚀 Next Steps
