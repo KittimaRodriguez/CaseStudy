@@ -24,31 +24,33 @@ FROM `bigquery-public-data.thelook_ecommerce.order_items`;
 SELECT order_id, product_id, COUNT(*) AS duplicate_count
 FROM `bigquery-public-data.thelook_ecommerce.order_items`
 GROUP BY order_id, product_id
-HAVING COUNT(*) > 1;
+HAVING COUNT(*) > 1;  
 
--- 3️⃣ Remove Duplicate Records
--- Creates a cleaned table with distinct order records.
-CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items` AS
-SELECT DISTINCT order_id, user_id, product_id, sale_price, created_at
-FROM `bigquery-public-data.thelook_ecommerce.order_items`;
-
--- 4️⃣ Standardize Date Format
--- Convert created_at timestamps into proper DATE format for easier analysis.
-CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items` AS
-SELECT 
-  order_id, 
-  user_id, 
-  product_id, 
-  DATE(created_at) AS order_date, 
-  sale_price
-FROM `retail-sales-pipeline.sales_data.cleaned_order_items`;
-
--- 5️⃣ Remove Invalid Transactions (Alternative Approach for Free Tier)
--- Instead of DELETE (not allowed in free tier), create a new filtered table.
-CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items_final` AS
+-- 3️⃣ Identify Invalid Transactions
+-- Transactions with sale_price ≤ 0 might indicate errors, refunds, or test transactions.
+-- This step helps in understanding data inconsistencies.
 SELECT *
-FROM `retail-sales-pipeline.sales_data.cleaned_order_items`
-WHERE sale_price > 0;
+FROM `bigquery-public-data.thelook_ecommerce.order_items`
+WHERE sale_price <= 0;
+
+-- 4️⃣ Data Cleaning: Remove Duplicates, Join Product Names, Standardize Dates, and Filter Valid Sales
+-- This step creates a cleaned dataset with:
+-- Unique (DISTINCT) transactions to remove duplicates.
+-- A JOIN with the "products" table to include product names.
+-- A standardized date format (DATE instead of TIMESTAMP).
+-- A filter to exclude invalid sales (sale_price ≤ 0).
+CREATE OR REPLACE TABLE `retail-sales-pipeline.sales_data.cleaned_order_items` AS
+SELECT DISTINCT 
+    o.order_id, 
+    o.user_id, 
+    o.product_id, 
+    p.name AS product_name,  
+    o.sale_price, 
+    DATE(o.created_at) AS order_date  -- Standardizing timestamp to date
+FROM `bigquery-public-data.thelook_ecommerce.order_items` AS o
+JOIN `bigquery-public-data.thelook_ecommerce.products` AS p 
+ON o.product_id = p.id
+WHERE o.sale_price > 0;  -- Filtering out invalid transactions.
 
 /*
 Summary:
