@@ -7,7 +7,7 @@ Version: 1.0
 Description: 
 This script retrieves and analyzes retail sales data using SQL queries. 
 It counts total orders, extracts sample transactions, and identifies top-selling products.
-By grouping sales by product and calculating total revenue, we determine which products perform best.
+We determine which products perform bestBy grouping sales by product and calculating total revenue.
 */
 
 -- 1️⃣ Count total orders to measure overall sales volume.
